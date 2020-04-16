@@ -10,4 +10,4 @@ To Run
 >$KAFKA_HOME/bin/kafka-server-start.sh config/server.properties
 
 - create kafka topics
->$KAFKA_HOME/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test_topic
+>$KAFKA_HOME/bin/kafka-topics.sh --create --zookeeper localhost:9092 --replication-factor 1 --partitions 1 --topic test_topic
