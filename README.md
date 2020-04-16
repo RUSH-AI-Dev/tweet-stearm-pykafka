@@ -29,7 +29,7 @@ To Run
 >>>hello 2
 >>>hello 3
 
-- test: producer 
+- test: consumer 
 >$KAFKA_HOME/kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test_topic --from-beginning
 >>receive:
 >>>hello 1
