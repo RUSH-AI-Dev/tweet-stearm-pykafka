@@ -16,13 +16,6 @@ To Run
 >$KAFKA_HOME/kafka-topics.bat --zookeeper localhost:2181 --topic test_topic --describe
 
 - test: producer 
->$KAFKA_HOME/kafka-console-producer.bat --broker-list localhost:2181 --topic test_topic
->>ex:
->>>hello 1
->>>hello 2
->>>hello 3
-
-- test: producer 
 >$KAFKA_HOME/kafka-console-producer.bat --broker-list localhost:9092 --topic test_topic
 >>ex:
 >>>hello 1
