@@ -1,4 +1,4 @@
-## tweet-stearm-pykafka
+## tweet-stream-pykafka
 >
 >
 >
